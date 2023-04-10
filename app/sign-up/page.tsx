@@ -39,7 +39,7 @@ async function getData() {
     throw new Error("Failed to fetch data");
   }
 
-  await delay(2000);
+  await delay(5000);
   return data;
 }
 

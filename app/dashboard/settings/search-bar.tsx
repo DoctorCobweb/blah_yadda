@@ -3,6 +3,8 @@
 import { useSearchParams } from "next/navigation";
 
 export default function SearchBar() {
+  // useSearchParams is a cliend-side only hook that lets
+  // you read the current URL's query string
   const searchParams = useSearchParams();
 
   const search = searchParams.get("search");
